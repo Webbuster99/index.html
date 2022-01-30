@@ -1,0 +1,905 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1 &family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mulish&display=swap');
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+a.navbar-brand .text-dark {
+    text-align: center;
+}
+a.bg-primary {
+    font-size: 30px;
+    width: 47px;
+    height: 48px;
+    border-radius: 50%;
+    text-align: center;
+}
+.virtualHealthcare {
+    grid-area: virtualHealthcare;
+    display: flex;
+    background: url("../index.html/images/circles.png") no-repeat top 63px left -50px;
+}
+
+.header__elementImage {
+    margin-top: 63px;
+}
+
+.virtualHealth-info {
+    padding: 186px 0 0 190px;
+}
+
+.info-title {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: black;
+}
+
+.info-description {
+    padding-top: 25px;
+    color: rgb(102, 101, 101);
+    mix-blend-mode: normal;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.info-button {
+    margin-top: 48px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    line-height: 54px;
+    border-radius: 55px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.healthcare-picture {
+    margin: 80px 0 0 114px;
+    height: 598px;
+    width: 693px;
+}
+/* 2nd part section */
+
+.ourServices {
+    grid-area: ourServices;
+    padding-top: 193px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services-title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+
+
+.ourServices-line {
+    width: 56px;
+    height: 2px;
+    top: 1049px;
+    left: 772px;
+    background: #000000;
+    border-radius: 5px;
+    margin-top: 15px;
+    align-self: center;
+
+}
+.services-description {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    margin-top: 32px;
+    font-weight: 300;
+    color: rgb(90, 89, 89);
+    margin-left: -3px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.service {
+    background: url("../index.html/images/art.png") no-repeat top -179px left, url("../index.html/images/circles.png") no-repeat right 190px top 367px;
+    justify-content: center;
+    padding-top: 80px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 37px 34px;
+}
+
+.services1 {
+    box-sizing: border-box;
+    width: 350px;
+    height: 354px;
+    background-color: white;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 54px 0 0 36px;
+}
+
+.service_title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    /* margin: 29px 0 13px; */
+    line-height: 56px;
+}
+
+.service_description {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(105, 103, 103);
+}
+
+.btn-outline-primary {
+    margin: 36px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 13px;
+    border-radius: 130px;
+}
+/* 3rd section */
+
+.providers {
+    grid-area: providers;
+    margin: 221px 0 0 135px;
+    display: flex;
+    background: url('../index.html/images/fourcircle.png') no-repeat right -46px bottom;
+    padding-bottom: 103px;
+}
+.providers-illustration {
+    height: 477px;
+    width: 650px;
+}
+
+.providers-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 142px;
+}
+
+.providers-info-title {
+    margin: 58px 0 0;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.providers-info-description {
+    margin-top: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(88, 87, 87);
+}
+/* download app info section */
+.app {
+    grid-area: app;
+    margin: 120px 0 0 130px;
+    display: flex;
+    background: url('../index.html/images/circles.png') no-repeat right -46px bottom;
+    padding-bottom: 103px;
+}
+.app-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+.app-title {
+    margin: 58px 0 0;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: black;
+}
+.app-description {
+    margin-top: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(102, 101, 101);
+}
+.app-illustration {
+    height: 480px;
+    width: 660px;
+}
+.app-info btn-outline-primary {
+    margin: 20px;
+    padding-top: 10px;
+    padding-left: 7px;
+    padding-bottom: 13px;
+    border-radius: 130px;
+}
+
+/* carousel section */
+.carousel {
+    grid-area: testimonials;
+    margin-top: 251px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whiteRectangle {
+    width: 1220px;
+    background: url('../index.html/images/fourcircle.png') no-repeat top 286px left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    height: 425px;
+    margin-top: 15px;
+    margin-left: 4px;
+    background-image: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    position: relative;
+}
+
+.carousel-title {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 65px 0 0 4px;
+    line-height: 48px;
+    color: white;
+    text-align: center;
+}
+
+.border-line {
+    width: 56px;
+    height: 2px;
+    background-color: white;
+    border-radius: 6px;
+    left: 776px;
+    top: 3861px;
+    margin-top: 23px;
+    align-self: center;
+}
+
+.person {
+    display: flex;
+}
+
+.person-image {
+    background-color: white;
+    width: 142px;
+    height: 142px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 66px 0 0 117px;
+}
+
+.pic {
+    background-image: url("../index.html/images/person.png");
+    position: absolute;
+    width: 133px;
+    height: 133px;
+}
+
+.person-info {
+    display: flex;
+    flex-direction: column;
+    margin: 97px 0 0 29px;
+}
+
+.name {
+    margin-top: 11px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    line-height: 32px;
+}
+
+.company {
+    margin-top: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.About {
+    font-family: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 77px 0 0 110px;
+}
+
+/* latest article 6th section */
+.Latest_article {
+    grid-area: Latest_article;
+    margin-top: 193px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("../index.html/images/five-circles.png") no-repeat top 80px left 38px, 
+     url("../index.html/images/leftart.png") no-repeat top right;
+}
+
+.article-title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    color: black;
+}
+.article-line {
+    width: 56px;
+    height: 2px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 6px;
+    left: 772px;
+    top: 4515px;
+    margin-top: 23px;
+    align-self: center;
+    overflow: none;
+}
+
+.card-body{
+    box-shadow: 0 0 20px 7px black;
+}
+.card{
+    margin: 20px;
+    left: 50px;
+    width: 351px;
+    height: 512px;
+    border-radius: 10px;
+}
+/* .card1 {
+    width: 351px;
+    height: 512px;
+    left: 240px;
+    top: 4596px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 7px;
+
+}
+.card2 {
+    width: 351px;
+    height: 512px;
+    left: 624px;
+    top: 4596px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px;
+
+}
+.card3 {
+    width: 329px;
+    height: 512px;
+    left: 1031px;
+    top: 4596px;
+    border-radius: 30px;
+    box-shadow: 10px 25px 20px;
+
+/* } */
+
+.text-primary a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+.text-primary a:hover {
+            color: blueviolet;
+            text-decoration: none;
+}
+.text-primary img {
+    left: 100%;
+    right: -100%;
+    top: 100%;
+    bottom: -100%;
+    margin-left: 10px;
+    background-image: #4089ED;
+    transform: rotate(-180deg);
+} 
+  .btn btn-outline-primary { 
+     width: 200px;  
+     height: 60px;
+     padding: 20px;
+     text-align: center;
+     margin-left: 695px;
+     margin-right: 30px;
+} 
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: 695px;
+  }
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+/* footer 7th section */
+footer{
+    display:-webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background:linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    
+}
+.footer > *{
+    flex: 1 100%;
+    background: url("../index.html/images/circles.png") no-repeat bottom left;
+}
+.footer-left{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.logo_T  {
+    font-family: "Mulish" sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    /* width: 50px; */
+    /* height: 50px; */
+    padding: 8px;
+    margin: 15px;
+    border-radius: 70%;
+
+}
+.footer-left h1{
+    left: 15.25%;
+    right: 78.06%;
+    top: 94.75%;
+    bottom: 4.74%;
+    font-family:'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.footer-left p{
+    left: 11.88%;
+    right: 63.69%;
+    top: 95.64%;
+    bottom: 2.93%;
+    font-family: "Mulish" sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+.footer-right h2{
+    font-family:'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+
+}
+.footer li{
+    line-height: 2em;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer-right{
+    display:-webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer-right > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+.box li{
+    padding: 8px;
+}
+.box a{
+    color: white;
+}
+.footer-left p{
+    padding-right: 20%;
+    color: white;
+}
+
+/* For desktop: */
+/* section {width: 100%;} */
+/*  */
+/* @media only screen and (max-width: 768px) { */
+  /* For mobile phones: */
+  /* body { */
+    /* width: 100%; */
+    /* height: 100%; */
+  /* } */
+/* } */
+
+
+@media only screen and (min-width:600px){
+    .footer-right > *{
+        flex: 1;
+        width: 100%;
+    }
+    .footer-left{
+        flex: 1 0px;
+        width: 100%;
+    }
+    .footer-right{
+        flex: 2 0px;
+    }
+}
+
+ @media screen and (max-width:600px){ 
+        .footer{ 
+             padding: 28px;
+            }
+            .footer-right h2{
+                font-family:'Mulish', sans-serif;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 30px;
+        }
+         
+ }
+@media only screen and (max-width: 600px) {
+/* virtual health care media query */
+    .virtualHealthcare {
+        grid-area: virtualHealthcare;
+        display: flex;
+        flex-direction: column;
+        background: url("../index.html/images/circles.png") no-repeat top 63px left -50px;
+    }
+    .healthcare-picture {
+        margin: 10px 0 0 10px;
+        height: 100%;
+        width: 100%;
+    }
+    .virtualHealth-info {
+        padding: 50px;
+        margin-top: 75px;
+        text-align: center;
+    }
+    
+    .info-title {
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 56px;
+        color: black;
+    }
+
+/* services media query */
+    .ourServices {
+        grid-area: ourServices;
+        margin:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .service {
+        background: url("../index.html/images/art.png") no-repeat top -179px left, url("../index.html/images/circles.png") no-repeat right 190px top 367px;
+        justify-content: center;
+        padding: 15px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .services1 {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        padding: 20px;
+        margin: 12px;
+    }
+/* provider media query */
+
+    .providers {
+        grid-area: providers;
+        margin: 20px 0 0 20px;
+        display: flex;
+        flex-direction: column;
+        background: url('../index.html/images/fourcircle.png') no-repeat right -46px bottom;
+        padding-bottom: 20px;
+    }
+    .providers-illustration {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .providers-info {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    
+    .providers-info-title {
+        margin: 58px 0 0;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        color: black;
+        font-size: 36px;
+        line-height: 56px;
+    }
+    
+    .providers-info-description {
+        margin-top: 30px;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        color: rgb(88, 87, 87);
+    }
+
+
+
+
+
+/* app media query */
+
+.app {
+    grid-area: app;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    background: url('../index.html/images/circles.png') no-repeat right bottom;
+    padding: 10px;
+}
+.app{
+    margin: 10px 0 0 30px;
+}
+.app-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+.app-title {
+    margin: 58px 0 0;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: black;
+}
+.app-description {
+    margin-top: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(102, 101, 101);
+}
+.app-illustration {
+    height: 100%;
+    width: 100%;
+}
+.app-info btn-outline-primary {
+    margin: 20px;
+    padding-top: 10px;
+    padding-left: 7px;
+    padding-bottom: 13px;
+    border-radius: 130px;
+}
+
+
+/* carousel media query */
+
+    .carousel {
+        grid-area: testimonials;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .whiteRectangle {
+        width: 100%;
+        background: url('../index.html/images/fourcircle.png') no-repeat top 286px left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .carousel-testimonial {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-top: 15px;
+        margin-left: 4px;
+        background-image: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        border-radius: 24px;
+        position: relative;
+    }
+    
+    .carousel-title {
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        margin: 65px 0 0 4px;
+        line-height: 48px;
+        color: white;
+        text-align: center;
+    }
+    
+    .border-line {
+        width: 56px;
+        height: 2px;
+        background-color: white;
+        border-radius: 6px;
+        left: 776px;
+        top: 3861px;
+        margin-top: 23px;
+        align-self: center;
+    }
+    
+    .person {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .person-image {
+        background-color: white;
+        width: 142px;
+        height: 142px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    
+    .pic {
+        background-image: url("../index.html/images/person.png");
+        position: absolute;
+        width: 133px;
+        height: 133px;
+    }
+    
+    .person-info {
+        display: flex;
+        flex-direction: column;
+        margin: 28px 0 0 29px;
+    }
+    
+    .name {
+        margin:0;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        color: white;
+        line-height: 32px;
+    }
+    
+    .company {
+        margin-top: 10px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.85);
+    }
+    
+    .About {
+        font-family: 'Mulish', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 19px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.9);
+        margin: 40px 0 0 110px;
+        padding: 20px;
+    }
+
+
+    
+    .Latest_article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin-right: 150px;
+        padding: 0px 0px 22px 0;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        margin-right: 150px;
+        padding: 0px 95px 22px 0;
+        border-radius: 10px;
+    }
+    
+    .card-body{
+        box-shadow: 0 0 20px 7px black;
+    }
+    
+    .container {
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: 530px ;
+        margin-left: 175px;
+        margin-top: 30px;
+      }
+      .btn btn-outline-primary { 
+        width: 200px;  
+        height: 60px;
+        padding: 20px;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 900px;
+}
+
+}
